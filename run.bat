@@ -1,0 +1,1 @@
+java -jar SendMail.jar -Dfile.encoding=UTF-8

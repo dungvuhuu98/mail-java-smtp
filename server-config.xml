@@ -1,0 +1,22 @@
+<config>
+	<database>
+		<datasource>
+			<name>MAIL</name>
+			<driverClassName>oracle.jdbc.driver.OracleDriver</driverClassName>
+			<url>jdbc:oracle:thin:@192.168.1.6:1521/tvsc</url>
+			<username>maillog</username>
+			<password>maillog</password>
+		</datasource>
+	</database>
+	<mail>
+		<host>mail.tvsc.vn</host>
+		<port>25</port>
+		<sleepInSecond>3</sleepInSecond>
+		<username>noreply@tvsc.vn</username>
+		<password>dvkh@123</password>
+		<from>CTCP CK Tri Viet (TVB)</from>
+		<subject>[QUAN TRỌNG] TVB TIẾP TỤC TẠM DỪNG ĐÓN KHÁCH HÀNG GIAO DỊCH TRỰC TIẾP TẠI TRỤ SỞ CHÍNH ĐỂ PHÒNG CHỐNG COVID 19</subject>
+		<folder>D:///Mail/Template</folder>
+		<template>test.ftlh</template>		
+	</mail>
+</config>
